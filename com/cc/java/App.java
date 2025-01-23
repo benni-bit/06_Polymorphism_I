@@ -12,6 +12,10 @@ public class App {
         pollObj(worker);
         pollObj(drone);
 
+        Honeybee bee = new Honeybee();// Abstraktion-->keine Instanzierung normalerweise möglich!!!
+        pollObj(bee);               //aber kein Dogma
+
+
 
        // output(queen.doYourJob());
         //output(queen.fly());
