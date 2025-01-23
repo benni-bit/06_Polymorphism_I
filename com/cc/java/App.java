@@ -32,8 +32,8 @@ public class App {
         
     }
 
-   
-    private static void pollObj(Queen obj){
+     //2. Iteration: Polymorphie
+    private static void pollObj(Honeybee obj){
 
         output(obj.doYourJob());
         output(obj.fly());
